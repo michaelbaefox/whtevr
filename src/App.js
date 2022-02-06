@@ -14,7 +14,7 @@ let App = () => {
       style={{
         backgroundColor: 'yellow',
         color: 'lime',
-        fontFamily: 'Comic Sans MS'
+        fontFamily: 'Arial'
       }}
     >
           {activated == "activated"?(
