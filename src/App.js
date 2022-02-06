@@ -10,7 +10,13 @@ let App = () => {
   let [color,setColor]=useState("")
   let [activated,setActivated]=useState("")
   return (
-      <div>
+    <div
+      style={{
+        backgroundColor: 'yellow',
+        color: 'lime',
+        fontFamily: 'Comic Sans MS'
+      }}
+    >
           {activated == "activated"?(
             <h1
             style={{
