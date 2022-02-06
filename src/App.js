@@ -12,15 +12,17 @@ let App = () => {
   return (
       <div>
           {activated == "activated"?(
-            <h1>activated</h1>
+            <h1
+            style={{
+              fontSize: fontSize,
+              color: color,
+              transition: "all 10s" 
+            }}
+            >Welcome to Laughing Lichterman
+
+            </h1>
           ):(
-            <h3
-              style={{
-                fontSize: fontSize,
-                color: color,
-                transition: "all 10s" 
-              }}
-            >
+            <h3>
               whtevr
             </h3>
           )}
