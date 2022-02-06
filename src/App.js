@@ -45,7 +45,7 @@ let App = () => {
           <input
             type="text" 
             value={activated} 
-            placeholder="Drink Coor"
+            placeholder="meh"
             onChange={e => setActivated(e.target.value)}
           />
           <h1>Practice Your Tags!</h1>
